@@ -8,9 +8,9 @@ public class WumpusRunner {
 		if (testingMode)
 		{
 			System.out.println("Start tests");
-			Room tempRoom;
-			tempRoom = new Room(7,9,15,16);
-			System.out.println(tempRoom.toString());
+			Maze tempMaze;
+			tempMaze = new Maze();
+			System.out.println(tempMaze.getDescriptionForRoom(1));
 			System.out.println("End tests");
 		}
 		else
