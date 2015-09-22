@@ -8,7 +8,9 @@
 public class Referee {
 
 	// TODO: decide which private member variables this class should have and declare them here.
-	
+	private int playerRoom;
+	private int arrows;
+	private int wumpusRoom;
 	/**
 	 * constructor - initialize all variables, including the maze.
 	 */
